@@ -1,6 +1,6 @@
 FROM kalilinux/kali-rolling
 
-ARG S6_VER=v1.21.8.0
+ARG S6_VER=v2.0.0.1
 
 RUN DEBIAN_FRONTEND=non-interactive bash -c " \
     apt-get update -qqy \
